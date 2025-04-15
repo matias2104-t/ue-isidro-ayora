@@ -1,0 +1,555 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+
+*{
+    margin: 0; 
+    padding: e; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(imagenes/imagen6.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  .menu .navbar ul li {
+    position: relative;
+    float: left;
+  }
+  
+  .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+  }
+  .menu .navbar ul li a:hover {
+    color: rgb(5, 5, 83);
+  }
+  
+  #menu {
+    display: none;
+  }
+  .coffeee-img{
+    width:30%;
+    height:auto;
+
+  }
+  .menu-icono {
+    width: 25px;
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: none;
+  }
+  .header-content{
+    text-align: center;
+  }
+  .btn-1{
+    text-align: center; 
+    display: inline-block;
+    padding: 11px 35px;
+    background: #0c184b;
+    color: white;
+    text-transform: uppercase;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  .btn-2{
+    text-align: center;
+    padding: 11px 100px;
+    background: #0c184b;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  .header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  
+  .header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+  }
+  .btn-1:hover {
+    background-color: grey;
+  }
+  .btn-2:hover {
+    background-color: grey;
+  }
+  .imagenes-content{
+    margin-top: 500px;
+    padding-bottom: 50px;
+  }
+  .coffeee-1 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;  
+}
+.img1 {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+  
+}
+  .coffee {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+  }
+  
+  .coffee-content {
+    text-align: center;
+  }
+  .coffee-content h2 {
+    font-size: 55px;
+    line-height: 78px;
+    color: #0c184b;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+  }
+  
+  .txt-p {
+    font-size: 20px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+  }
+  .txt-p1 {
+    display: flex;
+    font-size: 20px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+  }
+  .coffee-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .coffee-1 {
+    padding: 0 25px;
+  }
+  
+  .coffee-1 img {
+    width: 200px;
+  }
+  
+  .coffee-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .coffee-1 h3 {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .services {
+    background-image: linear-gradient(rgba(9, 29, 148, 0.678), rgba(0, 0, 0, 0.7)), url(imagenes/imagen6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 100px;
+  }
+  .blog1 {
+    text-align: center;
+  }
+  
+  .blog1-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blog-2 {
+    padding: 105px 55px;
+  }
+  .blog-2 p{
+    color: white;
+  }
+  
+  .blog-2 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-2 h3 {
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+  }
+  .img2 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .img3{
+    display: block;
+    max-width: 150%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .img4{
+    display: flexbox;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;  
+  }
+  .general {
+    display: flex;
+  }
+  
+  .general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+  }
+  
+  .general-2 {
+    background-image: url(imagenes/isidroayora.jpg);
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size:cover;
+    width: 50%;
+  }
+  .general-3 {
+    background-image: url(imagenes/imagen8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-4 {
+    background-image: url(imagenes/imagen3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-5 {
+    background-image: url(imagenes/imagen2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .generall-1 {
+    width: 50%;
+    padding: 100px 90px 90px 90px;
+    background-color: #E1E2E6;
+  }
+  .generall-2 {
+    background-image: url(imagenes/programacion.jpg);
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size:cover;
+    width: 50%;
+  }
+  .generall-3 {
+    background-image: url(imagenes/Sistemasop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .generall-4 {
+    background-image: url(imagenes/soporte-tecnico.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .generall-5 {
+    background-image: url(imagenes/ofimatica-cursos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .generall-6 {
+    background-image: url(imagenes/diseno-web-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .h2g{
+    font-size: 30px;
+    color: rgba(48, 47, 47, 0.966);
+    text-transform: uppercase;
+  }
+  .h2m {
+    font-size: 55px;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: rgba(48, 47, 47, 0.966);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 16px;
+    color: #000000;
+    margin: 25px 0 45px 0;
+  }
+  .h3h{
+    font-size: 25px;
+    color: #323337;
+  }
+
+  .blog {
+    padding: 100px 20px;
+    text-align: center;
+    
+  }
+  
+  .blog-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blog-1 {
+    padding: 105px 55px;
+  }
+  
+  .blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+  }
+  .blog3 h2 {
+    font-size: 45px;
+    color: white;
+    text-align:center;
+  }
+  .blog3 {
+    padding: 30px 0px;
+    background-color: #0c184b;
+    width: 100%;
+    
+  }
+  .map{
+    filter: grayscale(100%) invert(92%) contrast(93%);
+  }
+  .footer{
+    padding: 90px 0px;
+    background-color: #0c184b;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+  .footer-p{
+    color: white;
+  }
+  .images{
+    display: block;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  .social{
+    display: flex;
+    max-width: 40%;
+    margin: 40px auto;
+
+  }
+  .socials{
+    margin: 0 100px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid gray;
+    border-radius: 100px;
+  }
+  @media (max-width: 991px) {
+    .menu {
+      padding: 30px;
+    }
+  
+    .menu label {
+      display: initial;
+    }
+  
+    .menu .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #323337;
+      display: none;
+    }
+  
+    .menu .navbar ul li {
+      width: 100%;
+    }
+  
+    #menu:checked ~ .navbar {
+      display: initial;
+    }
+    .header {
+        min-height: 100vh;
+      }
+      
+      .header-content {
+        padding: 100px 30px;
+      }
+      
+      .header-content p {
+        padding: 0;
+      }
+      
+      .coffee {
+        padding: 30px;
+      }
+      
+      .coffee-content h2 {
+        padding: 0;
+      }
+      
+      .txt-p {
+        padding: 0;
+      }
+      .coffee-group {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      
+      .coffee-img {
+        display: none;
+      }
+      
+      .services {
+        padding: 30px;
+      }
+      
+      .services-content p {
+        padding: 0;
+      }
+      
+      .services-group {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      
+      .services-1 {
+        margin-bottom: 25px;
+      }
+      .general {
+        flex-direction: column;
+      }
+      
+      .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+      }
+      
+      .general-2, .general-3 {
+        display: none;
+      }
+      
+      .blog {
+        padding: 30px;
+      }
+      
+      .blog-content {
+        flex-direction: column;
+      }
+      
+      .blog-1 {
+        padding: 0;
+      }
+
+
+  }
+  
+           
+  
+  
+  
